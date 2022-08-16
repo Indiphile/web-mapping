@@ -1,0 +1,30 @@
+{
+    "homeCamera": {
+        "north": -24,
+        "east": 33.5,
+        "south": -32.5,
+        "west": 16
+    },
+    "baseMapName": "Positron (Light)",
+    "viewerMode": "2d",
+    "catalog": [
+        {
+            "name": "Coastal",
+            "type": "group",
+            "members": [
+                {
+                    "name": "DE Africa Coastalines",
+                    "type": "wms",
+                    "url": "https://geoserver.dev.digitalearth.africa/geoserver/coastline_v0.3.0/wms",
+                    "layers": "coastline_v0.3.0:DEACoastlines"
+                }
+            ]
+        }
+    ],
+    "baseMapId": "basemap-bing-aerial-with-labels",
+    "previewBaseMapId": "basemap-positron",
+    "corsDomains": [
+      "localhost:8080"
+      
+    ]
+}
